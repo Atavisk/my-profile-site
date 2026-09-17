@@ -45,39 +45,55 @@ section {
 }
 
 h2 {
-  font-size: 24px;
-  margin-bottom: 16px;
-  border-left: 4px solid #2c3e50;
-  padding-left: 12px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    border-left: 4px solid #2c3e50;
+    padding-left: 12px;
 }
 
 #skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
 }
 
 #skills li {
-  background-color: #ecf0f1;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 14px;
+    background-color: #ecf0f1;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
 }
 
 #contact a {
-  color: #2c3e50;
-  font-weight: bold;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+body.dark {
+    background-color: #1a1a1a;
+    color: #eee;
+}
+
+body.dark header {
+    background-color: #111;
+}
+
+body.dark #skills li {
+    background-color: #333;
+    color: #eee;
 }
 
 
 @media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    gap: 12px;
-  }
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
 
-  header {
-    padding: 16px;
-  }
+    header {
+        padding: 16px;
+    }
+
+
 }
